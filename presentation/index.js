@@ -184,6 +184,11 @@ export default class Presentation extends React.Component {
 
         <Slide>
 	    <Heading>Blueprints</Heading>
+	    <List>
+	    	<ListItem>Definition, definition, definition</ListItem>
+		<ListItem>Collaboration</ListItem>
+		<ListItem>Single source of truth</ListItem>
+	    </List>
             <Notes>
 	    	<li>Define how the service will behave</li>
 		<li>What does the request body look like</li>
@@ -205,6 +210,11 @@ export default class Presentation extends React.Component {
 
         <Slide>
 	    <Heading>Contracts</Heading>
+	    <List>
+	    	<ListItem>Validation</ListItem>
+		<ListItem>Consistency</ListItem>
+		<ListItem>Test BEFORE creation</ListItem>
+	    </List>
             <Notes>
 	    	<li>Stick to the design</li>
 	    	<li>Make all the assertions</li>
