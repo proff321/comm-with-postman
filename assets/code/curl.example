@@ -1,0 +1,13 @@
+curl \
+  -X POST \
+  https://demo.api.onlineshopper.dealerinspire.com/v2/deals \
+  -H 'Accept-Language: fr' \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: 20006bff-6085-43ab-8716-2d4d7cd9158f' \
+  -H 'cache-control: no-cache' \
+  -d '{
+    "account_slug": "coxchevy",
+    "vins": [
+        "1G1YB2D74K5101749"
+    ]
+}'

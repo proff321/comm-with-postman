@@ -1,0 +1,9 @@
+var response = JSON.parse(responseBody)
+
+if (!response.vehicles) {
+    postman.setNextRequest("req-name")
+}
+
+pm.test("Next test", function () {
+    pm.expect(result).to.have.string(expected)
+});
