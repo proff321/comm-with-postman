@@ -103,15 +103,8 @@ export default class Presentation extends React.Component {
 	    ]}
 	    showLineNumbers={false}
 	    code={Assets.code.curlExample}
-	/>
-
-        <Slide>
-	    <Heading>cURL</Heading>
-	    <CodePane 
-		lang="js"
-		source={Assets.code.curlExample}
-	    />
-            <Notes>
+	>
+	    <Notes>
                 <li>The tool for TRUE CLI junkies</li>
                 <li>Works great at first</li>
                 <li>Then you decide to make a POST request</li>
@@ -120,7 +113,7 @@ export default class Presentation extends React.Component {
                 <li>Oh, and don't forget the silence options</li>
                 <li>Then there's formatting</li>
             </Notes>
-        </Slide>
+	</CodeSlide>
 
         <Slide>
             <Image src={Assets.screenShots.postman.empty} width={1443}/>
@@ -416,6 +409,7 @@ export default class Presentation extends React.Component {
 	    </List>
             <Notes>
 		<li>"this is how it changed the way I work"</li>
+		<li>pencil and paper</li>
 	       <li>See Outline</li>
             </Notes>
         </Slide>
