@@ -181,6 +181,7 @@ export default class Presentation extends React.Component {
 	    	<ListItem>Definition, definition, definition</ListItem>
 		<ListItem>Collaboration</ListItem>
 		<ListItem>Single source of truth</ListItem>
+		<ListItem>Pencil & Paper</ListItem>
 	    </List>
             <Notes>
 	    	<li>Define how the service will behave</li>
